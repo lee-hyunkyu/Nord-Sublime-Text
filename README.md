@@ -29,7 +29,9 @@
 									  autocomplete match label
 [229, 233, 240]		--> #E5E9F0 nord5 Used as a lighter background color for UI elements like status bars.  
 									  Used as semi-light background depending on the theme shading design.
-									  tab label inactive state | 
+									  tab label inactive state | bottom icon default state | bottom icon default state |
+									  bottom icon default state | bottom icon default state | bottom icon default state |
+									  bottom icon default state
 [236, 239, 244]		--> #ECEFF4 nord6 Used for punctuations, carets and structuring characters like curly- and square brackets.  
 									  In the UI scope used as background, selection- and hightlight color depending on the theme shading design.
 							
@@ -37,7 +39,11 @@
 							
 [136, 192, 208]		--> #88C0D0 nord8 Represents the accent color of the color palette.  
 									  Main color for primary UI elements and methods/functions. 
-									  label default | find buttons hover state | find buttons pressed state
+									  label default | find buttons hover state | find buttons pressed state | 
+									  bottom icon hover state | bottom icon selected state | bottom icon hover state | 
+									  bottom icon selected state | bottom icon hover state | bottom icon selected state |
+									  bottom icon hover state | bottom icon selected state | bottom icon hover state | 
+									  bottom icon selected state
 [129, 161, 193]		--> #81A1C1 nord9 Used for language-specific syntactic/reserved support characters and keywords, operators, tags, units and
 									  punctuations like (semi)colons,commas and braces.
 							
