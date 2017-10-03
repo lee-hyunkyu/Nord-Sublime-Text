@@ -3,7 +3,8 @@
 [46, 52, 64]		--> #2E3440 nord0 Used for texts, backgrounds, carets & structuring characters like curly/square brackets.
 						tab section background | tab element background | tab element active state | sidebar background | sidebar tree | quick panel section | text input field border | 
 						bottom panel background |quick panel background | mini quick panel section
- 						title_bar | code completion table row |
+ 						title_bar | code completion table row | button labels hover |
+ 						button labels | find buttons | button labels pressed
 [59, 66, 82]		--> #3B4252 nord1 Used as a lighter background color for UI elements like status bars.
 						tab element hover state | status bar background | quick panel row hover state |
 						| mini quick panel row hover state |
@@ -36,7 +37,7 @@
 							
 [136, 192, 208]		--> #88C0D0 nord8 Represents the accent color of the color palette.  
 									  Main color for primary UI elements and methods/functions. 
-							
+									  label default | find buttons hover state | find buttons pressed state
 [129, 161, 193]		--> #81A1C1 nord9 Used for language-specific syntactic/reserved support characters and keywords, operators, tags, units and
 									  punctuations like (semi)colons,commas and braces.
 							

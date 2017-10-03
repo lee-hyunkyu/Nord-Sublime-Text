@@ -830,12 +830,12 @@
 
 
 //------------------------------------------------------------------------------
-// LABELS
+// LABELS - Nordified
 //------------------------------------------------------------------------------
     // General labels
     {
         "class": "label_control",
-        "color": [131, 168, 190] //label default
+        "color": [136, 192, 208] //label default
     },
     // Text field labels
     {
@@ -845,11 +845,25 @@
     // Button labels
     {
         "class": "label_control",
-        "parents": [{"class": "button_control"}],
+        "parents": [{"class": "button_control", "attributes": ["hover"]}],
         "font.bold": false,
         "font.size": 14,
-        "color": [143, 177, 197] //button labels
-    },
+        "color": [46, 52, 64], //button labels hover
+    }, 
+    {
+        "class": "label_control",
+        "parents": [{"class": "button_control", "attributes": ["pressed"]}],
+        "font.bold": false,
+        "font.size": 14,
+        "color": [46, 52, 64], //button labels pressed
+    }, 
+    {
+        "class": "label_control",
+        "parents": [{"class": "button_control", "attributes": ["!hover"]}],
+        "font.bold": false,
+        "font.size": 14,
+        "color": [136, 192, 208], //button labels
+    }, 
             // Nano Mode
             {
                 "class": "label_control",
@@ -1253,7 +1267,7 @@
 },
 
 //------------------------------------------------------------------------------
-// STANDARD TEXT BUTTONS - Find, Find Prev, Find All
+// STANDARD TEXT BUTTONS - Find, Find Prev, Find All - Nordified
 //------------------------------------------------------------------------------
     //Default button state
     {
@@ -1261,7 +1275,7 @@
         "content_margin": [10, 8],
         "min_size": [64, 0],
         "layer0.texture": "",
-        "layer0.tint": [34, 54, 65], //find buttons
+        "layer0.tint": [46, 52, 64], //find buttons
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [8, 8]
     },
@@ -1276,13 +1290,13 @@
     {
         "class": "button_control",
         "attributes": ["hover"],
-        "layer0.tint": [36, 57, 69] //find buttons hover state
+        "layer0.tint": [136, 192, 208], //find buttons hover state
     },
     //Pressed button state
     {
         "class": "button_control",
         "attributes": ["pressed"],
-        "layer0.tint": [36, 57, 69], //find buttons pressed state
+        "layer0.tint": [136, 192, 208] //find buttons pressed state
     },
 
 
