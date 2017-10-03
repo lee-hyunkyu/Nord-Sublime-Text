@@ -3,7 +3,7 @@
 [46, 52, 64]		--> #2E3440 nord0 Used for texts, backgrounds, carets & structuring characters like curly/square brackets.
 						tab section background | tab element background | tab element active state | sidebar background | sidebar tree | quick panel section | text input field border | 
 						bottom panel background |quick panel background | mini quick panel section
- 						title_bar | code completion table row 
+ 						title_bar | code completion table row |
 [59, 66, 82]		--> #3B4252 nord1 Used as a lighter background color for UI elements like status bars.
 						tab element hover state | status bar background | quick panel row hover state |
 						quick panel row selected state | mini quick panel row hover state |
@@ -11,7 +11,7 @@
 						code completion table row selected state
 [67, 76, 94]		--> #434C5E nord2 Used as line highlighting in the editor.  
 									  In the UI scope it may be used as selection- and hightlight color.
-									  selected sidebar row state | 
+									  selected sidebar row state | minimap control
 [76, 86, 106] 		--> #4C566A nord3 Used for comments, invisibles, indent- and wrap guide marker.  
 									  In the UI scope used as pseudoclass color for disabled elements.
 									  tab label inactive state | sidebar entry default state | 
