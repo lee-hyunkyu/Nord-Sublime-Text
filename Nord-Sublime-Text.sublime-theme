@@ -1480,24 +1480,24 @@
 
 
 //------------------------------------------------------------------------------
-// CODE COMPLETION DROPDOWN
+// CODE COMPLETION DROPDOWN - Nordified
 //------------------------------------------------------------------------------
     {
         "class": "popup_control",
         "content_margin": [0, 0],
-        "layer0.tint": [34, 54, 65], //code completion popup background
-        "layer0.opacity": 1.0
-    },
+        "layer0.tint": [46, 52, 64], //code completion popup background
+        "layer0.opacity": 1.0 
+    }, 
     {
         "class": "auto_complete",
         "row_padding": [8, 8]
     },
     {
         "class": "auto_complete_label",
-        "fg": [131, 168, 190], //autocomplete foreground
-        "match_fg": [255, 255, 255], //autocomplete match label
-        "selected_fg": [131, 168, 190], //autocomplete foreground
-        "selected_match_fg": [255, 255, 255] //autocomplete match label
+        "fg": [76, 86, 106], //autocomplete foreground
+        "match_fg": [216, 222, 233], //autocomplete match label
+        "selected_fg": [216, 222, 233], //autocomplete foreground
+        "selected_match_fg": [216, 222, 233] //autocomplete match label
     },
             //Autocomplete - Code Completion - options
             {
@@ -1529,25 +1529,25 @@
                 "settings": ["theme_agila_auto_complete_pink"],
                 "match_fg": [243, 103, 129],
                 "selected_match_fg": [243, 103, 129] //pink theme
-            },
+            }, 
     {
         "class": "table_row",
         "layer0.texture": "",
-        "layer0.tint": [36, 57, 69], //code completion table row
+        "layer0.tint": [46, 52, 64], //code completion table row 
         "layer0.opacity": 1.0,
-        "layer0.inner_margin": [3, 1]
+        "layer0.inner_margin": [3, 1] 
     },
     {
         "class": "table_row",
         "attributes": ["hover"],
-        "layer0.opacity": 1.0,
-        "layer0.tint": [45, 71, 86], //code completion table row hover state
+        "layer0.opacity": 1.0, 
+        "layer0.tint": [59, 66, 82], //code completion table row hover state
     },
     {
         "class": "table_row",
         "attributes": ["selected"],
         "layer0.opacity": 1.0,
-        "layer0.tint": [53, 85, 103], //code completion table row selected state
+        "layer0.tint": [59, 66, 82], //code completion table row selected state
     },
 
 
