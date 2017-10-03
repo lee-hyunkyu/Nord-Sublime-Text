@@ -894,12 +894,12 @@
 
 
 //------------------------------------------------------------------------------
-// SIDEBAR
+// SIDEBAR -- Nordified
 //------------------------------------------------------------------------------
     //Sidebar container
     {
         "class": "sidebar_container",
-        "layer0.tint": [36, 57, 69], //sidebar background
+        "layer0.tint": [46, 52, 64], //sidebar background
         "layer0.opacity": 1.0,
         "layer0.draw_center": false,
         "layer0.inner_margin": 0,
@@ -918,7 +918,7 @@
         "indent": 28,
         "indent_offset": 0,
         "indent_top_level": false,
-        "layer0.tint": [36, 57, 69], //sidebar tree
+        "layer0.tint": [46, 52, 64], //sidebar tree
         "layer0.opacity": 1.0,
         "dark_content": false,
     },
@@ -965,7 +965,7 @@
     //Sidebar rows
     {
         "class": "tree_row",
-        "layer0.tint": [34, 54, 65], //selected sidebar row state
+        "layer0.tint": [67, 76, 94], //selected sidebar row state
         "layer0.opacity": 0,
         "layer0.inner_margin": [1, 1]
     },
@@ -985,7 +985,7 @@
     //Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [49, 78, 95], //sidebar heading
+        "color": [216, 222, 233], //sidebar heading
         "font.bold": true,
         "font.size": 12
     },
@@ -1023,7 +1023,7 @@
     //Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [190, 190, 190], //sidebar entry default state
+        "color": [76, 86, 106], //sidebar entry default state
         "font.bold": false,
         "font.italic": false,
         "font.size": 13
@@ -1057,19 +1057,19 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "color": [225, 225, 225] //sidebar folder default state
+        "color": [216, 222, 233] //sidebar folder default state
     },
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "color": [143, 177, 197] //sidebar entry hover state
+        "color": [216, 222, 233] //sidebar entry hover state
     },
             // Nano Mode
             {
                 "class": "sidebar_label",
                 "parents": [{"class": "tree_row", "attributes": ["hover"]}],
                 "settings": ["theme_agila_nano_mode"],
-                "color": [255, 255, 255]
+                "color": [67, 76, 94]
             },
     {
         "class": "sidebar_label",
@@ -1081,7 +1081,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "color": [243, 103, 129] //sidebar entry selected state
+        "color": [216, 222, 233] //sidebar entry selected state
     },
             //Sidebar entry selected - options
             {
