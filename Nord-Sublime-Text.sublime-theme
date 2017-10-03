@@ -16,7 +16,8 @@
 //							
 // [216, 222, 233]	--> #D8DEE9 nord4 Main color for text, variables, constants and attributes.
 //									  In the UI scope used as semi-light background depending on the theme shading design.
-//							
+//									  tab label inactive state | 
+//									  title_bar | 
 // [229, 233, 240]	--> #E5E9F0 nord5 Used as a lighter background color for UI elements like status bars.  
 //									  Used as semi-light background depending on the theme shading design.
 //							
@@ -225,7 +226,7 @@
 // TABS - CLOSE / HIGHLIGHT / STATE BUTTONS
 //------------------------------------------------------------------------------
     // Tab close button
-    {
+    { 	// TODO
         "class": "tab_close_button",
         "content_margin": [8, 8],
         "layer0.texture": "Agila Theme/assets/tab-close.png",
@@ -361,13 +362,13 @@
 
 
 //------------------------------------------------------------------------------
-// TABS - LABELS
+// TABS - LABELS -- Nordified
 //------------------------------------------------------------------------------
     //Tab label inactive state
     {
         "class": "tab_label",
         "fade": true,
-        "fg": [131, 168, 190], //tab label inactive state
+        "fg": [76, 86, 106], //tab label inactive state
         "font.size": 11.5
     },
             // Nano Mode
@@ -380,13 +381,13 @@
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "fg": [169, 195, 210] //tab label hover state
+        "fg": [216, 222, 233] //tab label hover state
     },
     //Tab label active state
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "fg": [243, 103, 129] //tab label active state
+        "fg": [216, 222, 233] //tab label active state
     },
             //Tab label active state - options
             {
