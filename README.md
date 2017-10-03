@@ -1,10 +1,11 @@
 # SublimeNord
 
 [46, 52, 64]		--> #2E3440 nord0 Used for texts, backgrounds, carets & structuring characters like curly/square brackets.
-						tab section background | tab element background | tab element active state | sidebar background | sidebar tree | 
+						tab section background | tab element background | tab element active state | sidebar background | sidebar tree | quick panel section | 
  						title_bar | 
 [59, 66, 82]		--> #3B4252 nord1 Used as a lighter background color for UI elements like status bars.
-						tab element hover state | status bar background
+						tab element hover state | status bar background | quick panel row hover state |
+						quick panel row selected state | 
 [67, 76, 94]		--> #434C5E nord2 Used as line highlighting in the editor.  
 									  In the UI scope it may be used as selection- and hightlight color.
 									  selected sidebar row state | 
@@ -14,7 +15,9 @@
 [216, 222, 233]		--> #D8DEE9 nord4 Main color for text, variables, constants and attributes.
 									  In the UI scope used as semi-light background depending on the theme shading design.
 									  tab label active state | status bar text color | sidebar folder default state | sidebar entry selected state | sidebar entry hover state | 
-									  title_bar | 
+									  quick panel foreground | title_bar | quick panel match label | 
+									  quick panel selected match foreground | quick panel foreground | 
+									  quick panel path label | quick panel foreground | quick panel path label
 [229, 233, 240]		--> #E5E9F0 nord5 Used as a lighter background color for UI elements like status bars.  
 									  Used as semi-light background depending on the theme shading design.
 									  tab label inactive state | 

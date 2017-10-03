@@ -1370,12 +1370,12 @@
     },
 
 //------------------------------------------------------------------------------
-// QUICK PANEL - CMD + P
+// QUICK PANEL - CMD + P -- Nordified
 //------------------------------------------------------------------------------
     {
         "class": "quick_panel",
         "row_padding": 8,
-        "layer0.tint": [34, 54, 65], //quick panel section
+        "layer0.tint": [46, 52, 64], //quick panel section
         "layer0.opacity": 1.0,
         "dark_content": true
     },
@@ -1388,7 +1388,7 @@
     {
         "class": "quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [34, 54, 65], //quick panel section
+        "layer0.tint": [46, 52, 64], //quick panel section
         "layer0.inner_margin": 8,
         "layer0.opacity": 1.0
     },
@@ -1396,20 +1396,20 @@
         "class": "quick_panel_row",
         "attributes": ["hover"],
         "layer0.texture": "",
-        "layer0.tint": [45, 71, 86] //quick panel row hover state
+        "layer0.tint": [59, 66, 82] //quick panel row hover state
     },
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [53, 85, 103] //quick panel row selected state
+        "layer0.tint": [59, 66, 82] //quick panel row selected state
     },
     {
         "class": "quick_panel_label",
-        "fg": [131, 168, 190], //quick panel foreground
-        "match_fg": [255, 255, 255], //quick panel match label
-        "selected_fg": [131, 168, 190], //quick panel foreground
-        "selected_match_fg": [255, 255, 255] //quick panel selected match foreground
+        "fg": [216, 222, 233], //quick panel foreground
+        "match_fg": [216, 222, 233], //quick panel match label
+        "selected_fg": [216, 222, 233], //quick panel foreground
+        "selected_match_fg": [216, 222, 233] //quick panel selected match foreground
     },
             //Autocomplete - Quick Panel - options
             {
@@ -1444,15 +1444,15 @@
             },
     {
         "class": "quick_panel_path_label",
-        "fg": [131, 168, 190], //quick panel foreground
-        "match_fg": [169, 195, 210], //quick panel path label
-        "selected_fg": [131, 168, 190], //quick panel foreground
-        "selected_match_fg": [169, 195, 210] //quick panel path label
+        "fg": [216, 222, 233], //quick panel foreground
+        "match_fg": [216, 222, 233], //quick panel path label
+        "selected_fg": [216, 222, 233], //quick panel foreground
+        "selected_match_fg": [216, 222, 233] //quick panel path label
     },
     {
         "class": "quick_panel_score_label",
         "fg": [131, 168, 190], //quick panel foreground
-        "selected_fg": [131, 168, 190] //quick panel foreground
+        "selected_fg": [216, 222, 233] //quick panel foreground
     },
 
 
