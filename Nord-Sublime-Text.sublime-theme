@@ -1457,25 +1457,25 @@
 
 
 //------------------------------------------------------------------------------
-// MINI QUICK PANEL - CMD + SHIFT + P
+// MINI QUICK PANEL - CMD + SHIFT + P - Nordified
 //------------------------------------------------------------------------------
     {
         "class": "mini_quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [34, 54, 65], //mini quick panel section
+        "layer0.tint": [46, 52, 64], //mini quick panel section
         "layer0.opacity": 1.0
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["hover"],
         "layer0.texture": "",
-        "layer0.tint": [45, 71, 86] //mini quick panel row hover state
+        "layer0.tint": [59, 66, 82] //mini quick panel row hover state
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [53, 85, 103] //mini quick panel row selected state
+        "layer0.tint": [59, 66, 82] //mini quick panel row selected state
     },
 
 
