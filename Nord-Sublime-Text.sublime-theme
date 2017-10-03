@@ -1890,13 +1890,13 @@
 
 
 //------------------------------------------------------------------------------
-// STATUS BAR
+// STATUS BAR -- Nordified
 //------------------------------------------------------------------------------
     // Status bar container
     {
         "class": "status_bar",
         "layer0.texture": "",
-        "layer0.tint": [34, 54, 65], //status bar background
+        "layer0.tint": [59, 66, 82], //status bar background
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [2, 2],
         "content_margin": [8, 4]
@@ -1922,7 +1922,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "status_bar"}],
-        "color": [131, 168, 190] //status bar text color
+        "color": [216, 222, 233] //status bar text color
     },
 
 

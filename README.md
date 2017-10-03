@@ -4,7 +4,7 @@
 						tab section background | tab element background | tab element active state
  						title_bar |
 [59, 66, 82]		--> #3B4252 nord1 Used as a lighter background color for UI elements like status bars.
-						tab element hover state | 
+						tab element hover state | status bar background
 [67, 76, 94]		--> #434C5E nord2 Used as line highlighting in the editor.  
 									  In the UI scope it may be used as selection- and hightlight color.
 							
@@ -13,7 +13,7 @@
 									  tab label inactive state | 
 [216, 222, 233]		--> #D8DEE9 nord4 Main color for text, variables, constants and attributes.
 									  In the UI scope used as semi-light background depending on the theme shading design.
-									  tab label active state |
+									  tab label active state | status bar text color
 									  title_bar | 
 [229, 233, 240]		--> #E5E9F0 nord5 Used as a lighter background color for UI elements like status bars.  
 									  Used as semi-light background depending on the theme shading design.
