@@ -1402,7 +1402,7 @@
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [59, 66, 82] //quick panel row selected state
+        "layer0.tint": [67, 76, 94] //quick panel row selected state
     },
     {
         "class": "quick_panel_label",
@@ -1475,7 +1475,7 @@
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [59, 66, 82] //mini quick panel row selected state
+        "layer0.tint": [67, 76, 94] //mini quick panel row selected state
     },
 
 
@@ -1547,7 +1547,7 @@
         "class": "table_row",
         "attributes": ["selected"],
         "layer0.opacity": 1.0,
-        "layer0.tint": [59, 66, 82], //code completion table row selected state
+        "layer0.tint": [67, 76, 94], //code completion table row selected state
     },
 
 
