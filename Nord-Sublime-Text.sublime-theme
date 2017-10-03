@@ -4,9 +4,10 @@
 //------------------------------------------------------------------------------
 //               
 // [46, 52, 64]		--> #2E3440 nord0 Used for texts, backgrounds, carets & structuring characters like curly/square brackets.
-//							
+//						tab section background | tab element background | tab element active state
+// 						title_bar |
 // [59, 66, 82]		--> #3B4252 nord1 Used as a lighter background color for UI elements like status bars.
-//							
+//						tab element hover state | 
 // [67, 76, 94]		--> #434C5E nord2 Used as line highlighting in the editor.  
 //									  In the UI scope it may be used as selection- and hightlight color.
 //							
@@ -126,13 +127,13 @@
 
 
 //------------------------------------------------------------------------------
-// TABS
+// TABS -- Nordified
 //------------------------------------------------------------------------------
     //Tab set
     {
         "class": "tabset_control",
         "layer0.texture": "",
-        "layer0.tint": [34, 54, 65], //tab section background
+        "layer0.tint": [46, 52, 64], //tab section background
         "layer0.inner_margin": 0,
         "layer0.opacity": 1.0,
         "content_margin": 0,
@@ -175,7 +176,7 @@
         "max_margin_trim": 0,
         "hit_test_level": 0.5,
         "layer0.texture": "",
-        "layer0.tint": [36, 57, 69], //tab element background
+        "layer0.tint": [46, 52, 64], //tab element background
         "layer0.inner_margin": [5, 5],
         "layer0.opacity": 1.0
     },
@@ -196,14 +197,14 @@
         "class": "tab_control",
         "attributes": ["hover"],
         "layer0.texture": "",
-        "layer0.tint": [49, 78, 95], //tab element hover state
+        "layer0.tint": [59, 66, 82], //tab element hover state
     },
     //Tab active state
     {
         "class": "tab_control",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [27, 43, 52] //tab element active state
+        "layer0.tint": [46, 52, 64] //tab element active state
     },
     //Tab dirty state (close button hidden)
     {
