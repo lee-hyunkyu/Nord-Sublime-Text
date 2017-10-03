@@ -1293,7 +1293,7 @@
     {
         "class": "text_line_control",
         "layer0.texture": "",
-        "layer0.tint": [34, 54, 65], //text input field border
+        "layer0.tint": [46, 52, 64], //text input field border
         "layer0.opacity": 1.0,
         "content_margin": [8, 2]
     },
@@ -1347,13 +1347,13 @@
 
 
 //------------------------------------------------------------------------------
-// PANEL BACKGROUNDS
+// PANEL BACKGROUNDS - Nordified
 //------------------------------------------------------------------------------
     //Bottom panel background
     {
         "class": "panel_control",
         "layer0.texture": "",
-        "layer0.tint": [34, 54, 65], //bottom panel background
+        "layer0.tint": [46, 52, 64], //bottom panel background
         "layer0.inner_margin": [0, 0],
         "layer0.opacity": 1.0,
         "content_margin": 0
@@ -1363,7 +1363,7 @@
         "class": "overlay_control",
         "layer0.opacity": 1.0,
         "layer1.texture": "",
-        "layer1.tint": [34, 54, 65], //quick panel background
+        "layer1.tint": [46, 52, 64], //quick panel background
         "layer1.inner_margin": [0, 0, 0, 0],
         "layer1.opacity": 1.0,
         "content_margin": [0,8]

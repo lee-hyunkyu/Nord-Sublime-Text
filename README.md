@@ -1,7 +1,8 @@
 # SublimeNord
 
 [46, 52, 64]		--> #2E3440 nord0 Used for texts, backgrounds, carets & structuring characters like curly/square brackets.
-						tab section background | tab element background | tab element active state | sidebar background | sidebar tree | quick panel section | 
+						tab section background | tab element background | tab element active state | sidebar background | sidebar tree | quick panel section | text input field border | 
+						bottom panel background |quick panel background
  						title_bar | 
 [59, 66, 82]		--> #3B4252 nord1 Used as a lighter background color for UI elements like status bars.
 						tab element hover state | status bar background | quick panel row hover state |
