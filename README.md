@@ -31,7 +31,7 @@
 									  Used as semi-light background depending on the theme shading design.
 									  tab label inactive state | bottom icon default state | bottom icon default state |
 									  bottom icon default state | bottom icon default state | bottom icon default state |
-									  bottom icon default state
+									  bottom icon default state  
 [236, 239, 244]		--> #ECEFF4 nord6 Used for punctuations, carets and structuring characters like curly- and square brackets.  
 									  In the UI scope used as background, selection- and hightlight color depending on the theme shading design.
 							

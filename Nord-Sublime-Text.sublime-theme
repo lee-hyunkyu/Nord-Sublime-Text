@@ -1764,25 +1764,25 @@
 
 
 //------------------------------------------------------------------------------
-// BOTTOM PANEL ICONS - Search - Wrap & In Selection
+// BOTTOM PANEL ICONS - Search - Wrap & In Selection - Nordified
 //------------------------------------------------------------------------------
     // Reverse search direction button
     {
         "class": "icon_reverse",
         "layer0.texture": "Agila Theme/assets/icon-reverse.png",
-        "layer0.tint": [143, 177, 197], //bottom icon default state
+        "layer0.tint": [229, 233, 240], //bottom icon default state
         "layer0.opacity": 1.0,
         "content_margin": 8
     },
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
-        "layer0.tint": [193, 212, 223] //bottom icon hover state
+        "layer0.tint": [136, 192, 208] //bottom icon hover state
     },
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [219, 230, 236] //bottom icon selected state
+        "layer0.tint": [136, 192, 208] //bottom icon selected state
     },
             // Nano Mode
             {
@@ -1795,19 +1795,19 @@
     {
         "class": "icon_wrap",
         "layer0.texture": "Agila Theme/assets/icon-wrap.png",
-        "layer0.tint": [143, 177, 197], //bottom icon default state
+        "layer0.tint": [229, 233, 240], //bottom icon default state
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
-        "layer0.tint": [193, 212, 223] //bottom icon hover state
+        "layer0.tint": [136, 192, 208] //bottom icon hover state
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [219, 230, 236] //bottom icon selected state
+        "layer0.tint": [136, 192, 208] //bottom icon selected state
     },
             // Nano Mode
             {
@@ -1820,19 +1820,19 @@
     {
         "class": "icon_in_selection",
         "layer0.texture": "Agila Theme/assets/icon-selection.png",
-        "layer0.tint": [143, 177, 197], //bottom icon default state
+        "layer0.tint": [229, 233, 240], //bottom icon default state
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
-        "layer0.tint": [193, 212, 223] //bottom icon hover state
+        "layer0.tint": [136, 192, 208] //bottom icon hover state
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [219, 230, 236] //bottom icon selected state
+        "layer0.tint": [136, 192, 208] //bottom icon selected state
     },
             // Nano Mode
             {
@@ -1844,25 +1844,25 @@
 
 
 //------------------------------------------------------------------------------
-// BOTTOM PANEL ICONS - Preserve case
+// BOTTOM PANEL ICONS - Preserve case - Nordified
 //------------------------------------------------------------------------------
     // Preserve case button
     {
         "class": "icon_preserve_case",
         "layer0.texture": "Agila Theme/assets/icon-preserve.png",
-        "layer0.tint": [143, 177, 197], //bottom icon default state
+        "layer0.tint": [229, 233, 240], //bottom icon default state
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
-        "layer0.tint": [193, 212, 223] //bottom icon hover state
+        "layer0.tint": [136, 192, 208] //bottom icon hover state
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [219, 230, 236] //bottom icon selected state
+        "layer0.tint": [136, 192, 208] //bottom icon selected state
     },
             // Nano Mode
             {
@@ -1874,25 +1874,25 @@
 
 
 //------------------------------------------------------------------------------
-// BOTTOM PANEL ICONS - Highlight Matches
+// BOTTOM PANEL ICONS - Highlight Matches - Nordified
 //------------------------------------------------------------------------------
     // Highlight results button
     {
         "class": "icon_highlight",
         "layer0.texture": "Agila Theme/assets/icon-highlight.png",
-        "layer0.tint": [143, 177, 197], //bottom icon default state
+        "layer0.tint": [229, 233, 240], //bottom icon default state
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["hover"]}],
-        "layer0.tint": [193, 212, 223] //bottom icon hover state
+        "layer0.tint": [136, 192, 208] //bottom icon hover state
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
-        "layer0.tint": [219, 230, 236] //bottom icon selected state
+        "layer0.tint": [136, 192, 208] //bottom icon selected state
     },
             // Nano Mode
             {
