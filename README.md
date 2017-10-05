@@ -11,6 +11,7 @@ Not a package. Simply save to the sublime packages folder and it *should* work.
 
 - [Agila-Theme](https://github.com/arvi/Agila-Theme) - .sublime-theme source code and Icons (and the very helpful comments!)
 - [Boxy](https://github.com/ihodev/sublime-boxy) - Icons
+- [fjlaubscher](https://github.com/fjlaubscher/nord-sublime-text) - .tmTheme source code
 
 # Color Settings
 
