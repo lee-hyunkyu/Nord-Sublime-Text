@@ -1336,13 +1336,14 @@
     //Quick panel background
     {
         "class": "overlay_control",
+        "layer0.texture": "Material Theme/assets/default/overlay-bg.png",
+        "layer0.inner_margin": [24, 4, 24, 33],
         "layer0.opacity": 1.0,
-        "layer1.texture": "",
-        "layer1.tint": [46, 52, 64], //quick panel background
-        "layer1.inner_margin": [0, 0, 0, 0],
+        "layer1.texture": "Material Theme/assets/commons/quick-panel-background.png",
+        "layer1.inner_margin": [16, 0, 16, 25],
         "layer1.opacity": 1.0,
-        "content_margin": [0,8]
-    },
+        "content_margin": [13, 13, 13, 33]
+     },
 
 //------------------------------------------------------------------------------
 // QUICK PANEL - CMD + P -- Nordified
