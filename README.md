@@ -1,5 +1,19 @@
 # SublimeNord
 
+Unofficial [Nord](https://github.com/arcticicestudio/nord) Theme.
+
+
+## Installing
+
+Not a package. Simply save to the sublime packages folder and it *should* work. 
+
+## Thanks To
+
+- [Agila-Theme](https://github.com/arvi/Agila-Theme) - .sublime-theme source code and Icons (and the very helpful comments!)
+- [Boxy](https://github.com/ihodev/sublime-boxy) - Icons
+
+# Color Settings
+
 [46, 52, 64]		--> #2E3440 nord0 Used for texts, backgrounds, carets & structuring characters like curly/square brackets.
 						tab section background | tab element background | tab element active state | sidebar background | sidebar tree | quick panel section | text input field border | 
 						bottom panel background |quick panel background | mini quick panel section
