@@ -2,7 +2,7 @@
 
 Unofficial [Nord](https://github.com/arcticicestudio/nord) Theme.
 
-![Example](assets/Nord-Screenshot.png)
+![Example](assets/Nord-Screenshot2.png)
 
 ## Installing
 
