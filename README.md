@@ -27,7 +27,7 @@
 									  quick panel foreground | title_bar | quick panel match label | 
 									  quick panel selected match foreground | quick panel foreground | 
 									  quick panel path label | quick panel foreground | quick panel path label |
-									  autocomplete match label | autocomplete foreground | 
+									  autocomplete match label | autocomplete foreground | text dropdown tint
 									  tab dropdown tint | 
 [229, 233, 240]		--> #E5E9F0 nord5 Used as a lighter background color for UI elements like status bars.  
 									  Used as semi-light background depending on the theme shading design.
@@ -46,7 +46,8 @@
 									  bottom icon selected state | bottom icon hover state | bottom icon selected state |
 									  bottom icon hover state | bottom icon selected state | bottom icon hover state | 
 									  bottom icon selected state | tab close button hover state | tab active dirty button | 
-                                      tab dropdown hover state | scroll tab left/right button hover
+                                      tab dropdown hover state | scroll tab left/right button hover |
+                                      text field dropdown hover state
 [129, 161, 193]		--> #81A1C1 nord9 Used for language-specific syntactic/reserved support characters and keywords, operators, tags, units and
 									  punctuations like (semi)colons,commas and braces.
 							

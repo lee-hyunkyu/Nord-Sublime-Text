@@ -1310,7 +1310,7 @@
 
 
 //------------------------------------------------------------------------------
-// TEXT INPUT FIELD
+// TEXT INPUT FIELD - Nordified
 //------------------------------------------------------------------------------
     //Text input field item
     {
@@ -1332,8 +1332,8 @@
     {
         "class": "dropdown_button_control",
         "content_margin": [9, 9],
-        "layer0.texture": "Agila Theme/assets/tabset-list.png",
-        "layer0.tint": [255, 255, 255], //text dropdown tint
+        "layer0.texture": "Nord/assets/tabset-list-white.png",
+        "layer0.tint": [216, 222, 233], //text dropdown tint
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [4, 4]
     },
@@ -1342,20 +1342,20 @@
                 "class": "dropdown_button_control",
                 "settings": ["theme_agila_nano_mode"],
                 "content_margin": [9, 7, 8, 6],
-                "layer0.texture": "Agila Theme/assets/nano-mode/tabset-list.png",
+                "layer0.texture": "Nord/assets/nano-mode/tabset-list-white.png",
                 "layer0.tint": [116, 116, 116],
                 "layer0.inner_margin": 0
             },
     {
         "class": "dropdown_button_control",
         "attributes": ["hover"],
-        "layer0.texture": "Agila Theme/assets/tabset-list-hover.png",
+        "layer0.texture": "Nord/assets/tabset-list-white.png",
         "layer0.opacity": 1.0
     },
     {
         "class": "dropdown_button_control",
         "attributes": ["hover"],
-        "layer0.tint": [255, 255, 255] //text field dropdown hover state
+        "layer0.tint": [136, 192, 208] //text field dropdown hover state
     },
             // Nano Mode
             {
@@ -1363,7 +1363,7 @@
                 "attributes": ["hover"],
                 "settings": ["theme_agila_nano_mode"],
                 "content_margin": [9, 7, 8, 6],
-                "layer0.texture": "Agila Theme/assets/nano-mode/tabset-list.png",
+                "layer0.texture": "Nord/assets/nano-mode/tabset-list-white.png",
                 "layer0.tint": [255, 255, 255], //text field dropdown hover state
                 "layer0.inner_margin": 0
             },
