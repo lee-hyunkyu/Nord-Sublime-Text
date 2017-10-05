@@ -126,7 +126,10 @@
         "layer0.texture": "",
         "layer0.tint": [46, 52, 64], //tab element background
         "layer0.inner_margin": [5, 5],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1.0,
+        "layer1.texture": "Nord/assets/tab_current.png",
+        "layer1.opacity": 0.0,
+        "layer1.tint": [136, 192, 208] // tab element selected border color
     },
     //Tab close state
     {
@@ -152,7 +155,8 @@
         "class": "tab_control",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [46, 52, 64] //tab element active state
+        "layer0.tint": [46, 52, 64], //tab element active state
+        "layer1.opacity": 1.0
     },
     //Tab dirty state (close button hidden)
     {
