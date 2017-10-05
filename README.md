@@ -7,7 +7,7 @@
  						button labels | find buttons | button labels pressed
 [59, 66, 82]		--> #3B4252 nord1 Used as a lighter background color for UI elements like status bars.
 						tab element hover state | status bar background | quick panel row hover state |
-						| mini quick panel row hover state |
+						| mini quick panel row hover state | 
 						mini quick panel row selected state | code completion table row hover state | 
 						code completion table row selected state
 [67, 76, 94]		--> #434C5E nord2 Used as line highlighting in the editor.  
@@ -18,7 +18,8 @@
 [76, 86, 106] 		--> #4C566A nord3 Used for comments, invisibles, indent- and wrap guide marker.  
 									  In the UI scope used as pseudoclass color for disabled elements.
 									  tab label inactive state | sidebar entry default state | 
-									  autocomplete foreground | 
+									  autocomplete foreground | tab close button | tab inactive dirty button | 
+                                      tab inactive dirty button
 [216, 222, 233]		--> #D8DEE9 nord4 Main color for text, variables, constants and attributes.
 									  In the UI scope used as semi-light background depending on the theme shading design.
 									  tab label active state | status bar text color | sidebar folder default state | sidebar entry selected state | sidebar entry hover state | 
@@ -43,7 +44,7 @@
 									  bottom icon hover state | bottom icon selected state | bottom icon hover state | 
 									  bottom icon selected state | bottom icon hover state | bottom icon selected state |
 									  bottom icon hover state | bottom icon selected state | bottom icon hover state | 
-									  bottom icon selected state
+									  bottom icon selected state | tab close button hover state | tab active dirty button
 [129, 161, 193]		--> #81A1C1 nord9 Used for language-specific syntactic/reserved support characters and keywords, operators, tags, units and
 									  punctuations like (semi)colons,commas and braces.
 							
