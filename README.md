@@ -4,7 +4,8 @@
 						tab section background | tab element background | tab element active state | sidebar background | sidebar tree | quick panel section | text input field border | 
 						bottom panel background |quick panel background | mini quick panel section
  						title_bar | code completion table row | button labels hover |
- 						button labels | find buttons | button labels pressed
+ 						button labels | find buttons | button labels pressed | scrollbar vertical control | 
+                        scrollbar horizontal control | scroll corner control
 [59, 66, 82]		--> #3B4252 nord1 Used as a lighter background color for UI elements like status bars.
 						tab element hover state | status bar background | quick panel row hover state |
 						| mini quick panel row hover state | 
@@ -19,8 +20,8 @@
 									  In the UI scope used as pseudoclass color for disabled elements.
 									  tab label inactive state | sidebar entry default state | 
 									  autocomplete foreground | tab close button | tab inactive dirty button | 
-                                      tab inactive dirty button | scroll left/right button | fold button control default state
-
+                                      tab inactive dirty button | scroll left/right button | fold button control default state | 
+                                      scroll drag/pluck | 
 [216, 222, 233]		--> #D8DEE9 nord4 Main color for text, variables, constants and attributes.
 									  In the UI scope used as semi-light background depending on the theme shading design.
 									  tab label active state | status bar text color | sidebar folder default state | sidebar entry selected state | sidebar entry hover state | 

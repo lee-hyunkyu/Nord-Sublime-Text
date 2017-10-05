@@ -538,12 +538,12 @@
 
 
 //------------------------------------------------------------------------------
-// STANDARD SCROLLBARS
+// STANDARD SCROLLBARS - Nordified
 //------------------------------------------------------------------------------
     //Standard vertical scroll bar
     {
         "class": "scroll_bar_control",
-        "layer0.tint": [36, 57, 69], //scrollbar vertical control
+        "layer0.tint": [46, 52, 64], //scrollbar vertical control
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
         "blur": true
@@ -552,7 +552,7 @@
     {
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
-        "layer0.tint": [36, 57, 69], //scrollbar horizontal control
+        "layer0.tint": [46, 52, 64], //scrollbar horizontal control
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
         "blur": true
@@ -560,14 +560,14 @@
     //Standard scroll bar corner
     {
         "class": "scroll_corner_control",
-        "layer0.tint":[36, 57, 69], //scroll corner control
+        "layer0.tint":[46, 52, 64], //scroll corner control
         "layer0.inner_margin": 0,
         "layer0.opacity": 1.0
     },
     //Standard vertical scroll puck
     {
         "class": "puck_control",
-        "layer0.tint":[45, 71, 86], //scroll drag/pluck
+        "layer0.tint":[76, 86, 106], //scroll drag/pluck
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
         "content_margin": [4,0],
@@ -631,7 +631,7 @@
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
-        "layer0.tint":[45, 71, 86], //scroll drag/pluck
+        "layer0.tint":[76, 86, 106], //scroll drag/pluck
         "layer0.inner_margin": 0,
         "content_margin": [10,4],
         "blur": false
