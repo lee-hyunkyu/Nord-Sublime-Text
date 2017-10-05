@@ -19,7 +19,8 @@
 									  In the UI scope used as pseudoclass color for disabled elements.
 									  tab label inactive state | sidebar entry default state | 
 									  autocomplete foreground | tab close button | tab inactive dirty button | 
-                                      tab inactive dirty button
+                                      tab inactive dirty button | scroll left/right button | fold button control default state
+
 [216, 222, 233]		--> #D8DEE9 nord4 Main color for text, variables, constants and attributes.
 									  In the UI scope used as semi-light background depending on the theme shading design.
 									  tab label active state | status bar text color | sidebar folder default state | sidebar entry selected state | sidebar entry hover state | 
@@ -32,7 +33,7 @@
 									  Used as semi-light background depending on the theme shading design.
 									  tab label inactive state | bottom icon default state | bottom icon default state |
 									  bottom icon default state | bottom icon default state | bottom icon default state |
-									  bottom icon default state  
+									  bottom icon default state | fold button control hover state
 [236, 239, 244]		--> #ECEFF4 nord6 Used for punctuations, carets and structuring characters like curly- and square brackets.  
 									  In the UI scope used as background, selection- and hightlight color depending on the theme shading design.
 							
@@ -45,7 +46,7 @@
 									  bottom icon selected state | bottom icon hover state | bottom icon selected state |
 									  bottom icon hover state | bottom icon selected state | bottom icon hover state | 
 									  bottom icon selected state | tab close button hover state | tab active dirty button | 
-                                      tab dropdown hover state
+                                      tab dropdown hover state | scroll tab left/right button hover
 [129, 161, 193]		--> #81A1C1 nord9 Used for language-specific syntactic/reserved support characters and keywords, operators, tags, units and
 									  punctuations like (semi)colons,commas and braces.
 							
