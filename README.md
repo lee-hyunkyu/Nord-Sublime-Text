@@ -1,4 +1,4 @@
-# SublimeNord
+# Nord-Sublime-Text
 
 Unofficial [Nord](https://github.com/arcticicestudio/nord) Theme.
 
@@ -18,7 +18,6 @@ Not a package. Simply save to the sublime packages folder and it *should* work.
 ## Suggestions
 
 I'm not a designer nor a UI expert. If there are mistakes or things that I could do to improve the theme, simply add an issue. 
-
 
 [46, 52, 64]        --> #2E3440 nord0 Used for texts, backgrounds, carets & structuring characters like curly/square brackets.
                         tab section background | tab element background | tab element active state | sidebar background | sidebar tree | quick panel section | text input field border | 
