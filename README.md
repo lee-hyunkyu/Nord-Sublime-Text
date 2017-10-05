@@ -1,4 +1,4 @@
-# SublimeNord
+# Nord-Sublime-Text
 
 Unofficial [Nord](https://github.com/arcticicestudio/nord) Theme.
 
