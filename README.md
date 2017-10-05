@@ -13,6 +13,10 @@ Not a package. Simply save to the sublime packages folder and it *should* work.
 - [Boxy](https://github.com/ihodev/sublime-boxy) - Icons
 - [fjlaubscher](https://github.com/fjlaubscher/nord-sublime-text) - .tmTheme source code
 
+## Suggestions
+
+I'm not a designer nor a UI expert. If there are mistakes or things that I could do to improve the theme, simply add an issue. 
+
 # Color Settings
 
 [46, 52, 64]		--> #2E3440 nord0 Used for texts, backgrounds, carets & structuring characters like curly/square brackets.
