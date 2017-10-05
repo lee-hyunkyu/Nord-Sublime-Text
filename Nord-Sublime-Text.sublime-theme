@@ -135,13 +135,14 @@
         "class": "tabset_control",
         "layer0.texture": "",
         "layer0.tint": [46, 52, 64], //tab section background
-        "layer0.inner_margin": 0,
+        "layer0.inner_margin": [2, 0, 2, 2],
         "layer0.opacity": 1.0,
+        "content_margin": [0, 0, 0, 2],
         "content_margin": 0,
         "tab_overlap": 0,
-        "tab_width": 220,
-        "tab_min_width": 100,
-        "tab_height": 48,
+        "tab_width": 180,
+        "tab_min_width": 140,
+        "tab_height": 32,
         "mouse_wheel_switch": false
     },
             // Tab set - option
@@ -436,13 +437,13 @@
 
 
 //------------------------------------------------------------------------------
-// TABS - LIST & SCROLL ICONS
+// TABS - LIST & SCROLL ICONS - Nordified
 //------------------------------------------------------------------------------
     {
         "class": "show_tabs_dropdown_button",
         "content_margin": [10,10],
-        "layer0.texture": "Agila Theme/assets/tabset-list.png",
-        "layer0.tint": [255, 255, 255], //tab dropdown tint
+        "layer0.texture": "Nord/assets/tabset-list-white.png",
+        "layer0.tint": [216, 222, 233], //tab dropdown tint
         "layer0.opacity": 1.0
     },
             // Nano Mode
@@ -456,8 +457,8 @@
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
-        "layer0.texture": "Agila Theme/assets/tabset-list-hover.png",
-        "layer0.tint": [255, 255, 255], //tab dropdown hover state
+        "layer0.texture": "Nord/assets/tabset-list-white.png",
+        "layer0.tint": [136, 192, 208], //tab dropdown hover state
         "layer0.opacity": 1.0
     },
             // Nano Mode
@@ -470,45 +471,45 @@
     // Tab scroll left
     {
         "class": "scroll_tabs_left_button",
-        "content_margin": [9,8,7,5],
-        "layer0.texture": "Agila Theme/assets/tabset-left-arrow.png",
-        "layer0.tint": [144, 177, 197], //scroll left/right button
+        "content_margin": [8, 8],
+        "layer0.texture": "Nord/assets/button_arrow_left.png",
+        "layer0.tint": [76, 86, 106], //scroll left/right button
         "layer0.inner_margin": 0,
-        "layer0.opacity": 0.5
+        "layer0.opacity": 1.0
     },
             // Nano Mode
             {
                 "class": "scroll_tabs_left_button",
                 "settings": ["theme_agila_nano_mode"],
                 "content_margin": [9,7,8,6],
-                "layer0.texture": "Agila Theme/assets/nano-mode/tabset-left-arrow.png"
+                "layer0.texture": "Nord/assets/button_arrow_left.png"
             },
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
-        "layer0.tint": [144, 177, 197], //scroll left/right button
+        "layer0.tint": [136, 192, 208], //scroll left/right button hover
         "layer0.opacity": 1.0
     },
     // Tab scroll right
     {
         "class": "scroll_tabs_right_button",
-        "content_margin": [9,8,7,5],
-        "layer0.texture": "Agila Theme/assets/tabset-right-arrow.png",
-        "layer0.tint": [144, 177, 197], //scroll left/right button
+        "content_margin": [8,8],
+        "layer0.texture": "Nord/assets/button_arrow_right.png",
+        "layer0.tint": [76, 86, 106], //scroll left/right button
         "layer0.inner_margin": 0,
-        "layer0.opacity": 0.5
+        "layer0.opacity": 1.0
     },
             // Nano Mode
             {
                 "class": "scroll_tabs_right_button",
                 "settings": ["theme_agila_nano_mode"],
                 "content_margin": [9,7,8,6],
-                "layer0.texture": "Agila Theme/assets/nano-mode/tabset-right-arrow.png"
+                "layer0.texture": "Nord/assets/button_arrow_right.png"
             },
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
-        "layer0.tint": [144, 177, 197], //scroll tab left/right button
+        "layer0.tint": [136, 192, 208], //scroll tab left/right button hover
         "layer0.opacity": 1.0
     },
 
