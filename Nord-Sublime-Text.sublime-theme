@@ -1385,10 +1385,10 @@
     },
     {
         "class": "quick_panel_label",
-        "fg": [216, 222, 233], //quick panel foreground
-        "match_fg": [216, 222, 233], //quick panel match label
+        "fg": [176, 190, 197, 255], //quick panel foreground
+        "match_fg": [129, 161, 193], //quick panel match label
         "selected_fg": [216, 222, 233], //quick panel foreground
-        "selected_match_fg": [216, 222, 233] //quick panel selected match foreground
+        "selected_match_fg": [129, 161, 193] //quick panel selected match foreground
     },
             //Autocomplete - Quick Panel - options
             {
