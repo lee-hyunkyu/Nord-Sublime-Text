@@ -5,7 +5,7 @@
 						bottom panel background |quick panel background | mini quick panel section
  						title_bar | code completion table row | button labels hover |
  						button labels | find buttons | button labels pressed | scrollbar vertical control | 
-                        scrollbar horizontal control | scroll corner control
+                        scrollbar horizontal control | scroll corner control | empty window
 [59, 66, 82]		--> #3B4252 nord1 Used as a lighter background color for UI elements like status bars.
 						tab element hover state | status bar background | quick panel row hover state |
 						| mini quick panel row hover state | 

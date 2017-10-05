@@ -702,7 +702,7 @@
 
 
 //------------------------------------------------------------------------------
-// OVERLAY SCROLLBARS
+// OVERLAY SCROLLBARS 
 //------------------------------------------------------------------------------
     //Overlay toggle scroll bar
     {
@@ -770,11 +770,11 @@
 
 
 //------------------------------------------------------------------------------
-// EMPTY WINDOW BACKGROUND
+// EMPTY WINDOW BACKGROUND - Nordified
 //------------------------------------------------------------------------------
     {
         "class": "sheet_container_control",
-        "layer0.tint": [36, 57, 69], //empty window
+        "layer0.tint": [46, 52, 64], //empty window
         "layer0.opacity": 1.0
     },
 
