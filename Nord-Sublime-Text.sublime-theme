@@ -83,12 +83,11 @@
         "layer0.tint": [46, 52, 64], //tab section background
         "layer0.inner_margin": [2, 0, 2, 2],
         "layer0.opacity": 1.0,
-        "content_margin": [0, 0, 0, 2],
-        "content_margin": 0,
+        "content_margin": [6, 0, 8, 0],
         "tab_overlap": 0,
         "tab_width": 180,
         "tab_min_width": 140,
-        "tab_height": 32,
+        "tab_height": 40,
         "mouse_wheel_switch": false
     },
             // Tab set - option
