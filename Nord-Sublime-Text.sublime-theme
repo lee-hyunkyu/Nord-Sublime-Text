@@ -6,7 +6,8 @@
 // [46, 52, 64]        --> #2E3440 nord0 Used for texts, backgrounds, carets & structuring characters like curly/square brackets.
 //                         tab section background | tab element background | tab element active state | sidebar background | sidebar tree | quick panel section | text input field border | 
 //                         bottom panel background |quick panel background | mini quick panel section
-//                         title_bar | code completion table row | button labels hover |
+//                         title_bar | code completion table row | button labels hover | tooltip background |
+//                                             
 //                         button labels | find buttons | button labels pressed | scrollbar vertical control | 
 //                         scrollbar horizontal control | scroll corner control | empty window | grid layout
 // [59, 66, 82]        --> #3B4252 nord1 Used as a lighter background color for UI elements like status bars.
@@ -32,7 +33,7 @@
 //                                       quick panel selected match foreground | quick panel foreground | 
 //                                       quick panel path label | quick panel foreground | quick panel path label |
 //                                       autocomplete match label | autocomplete foreground | text dropdown tint
-//                                       tab dropdown tint | 
+//                                       tab dropdown tint | tooltip text
 // [229, 233, 240]     --> #E5E9F0 nord5 Used as a lighter background color for UI elements like status bars.  
 //                                       Used as semi-light background depending on the theme shading design.
 //                                       tab label inactive state | bottom icon default state | bottom icon default state |
@@ -837,12 +838,12 @@
 
 
 //------------------------------------------------------------------------------
-// TOOLTIP
+// TOOLTIP - Nordified
 //------------------------------------------------------------------------------
     // Tooltip container
     {
         "class": "tool_tip_control",
-        "layer0.tint": [36, 57, 69], //tooltip background
+        "layer0.tint": [46, 52, 64], //tooltip background
         "layer0.inner_margin": [1, 1],
         "layer0.opacity": 1.0,
         "content_margin": [8, 6]
@@ -860,7 +861,7 @@
     // Tooltip content
     {
         "class": "tool_tip_label_control",
-        "color": [143, 177, 197] //tooltip text
+        "color": [216, 222, 233] //tooltip text
     },
         // Nano Mode
         {
