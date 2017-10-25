@@ -1345,7 +1345,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#808080</string>
+                <string>#88c0d0</string>
             </dict>
         </dict>
         <dict>
@@ -1395,7 +1395,7 @@
                 <key>fontStyle</key>
                 <string>bold</string>
                 <key>foreground</key>
-                <string>#E8A64B</string>
+                <string>#d8dee9</string>
             </dict>
         </dict>
         <dict>
@@ -1478,11 +1478,22 @@
             <key>name</key>
             <string>Markup: Underline</string>
             <key>scope</key>
-            <string>markup.underline,markup.underline.link.markdown,constant.other.reference.link.markdown,meta.image.reference.markdown,meta.image.inline.markdown</string>
+            <string>markup.underline.link.markdown,constant.other.reference.link.markdown,meta.image.reference.markdown,meta.image.inline.markdown</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
                 <string>#555555</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markup: Underline</string>
+            <key>scope</key>
+            <string>markup.underline</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#8fbcbb</string>
             </dict>
         </dict>
         <dict>
