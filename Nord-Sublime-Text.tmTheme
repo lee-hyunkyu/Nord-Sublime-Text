@@ -8,52 +8,74 @@
     <string>Nord</string>
     <key>settings</key>
     <array>
-        <dict>
+        <!--+ - - - - - - - - +
+          + Global Settings +
+          + - - - - - - - - +-->
+          <dict>
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#2E3440</string>
-                <key>caret</key>
-                <string>#D8DEE9</string>
+                <string>#2e3440</string>
                 <key>foreground</key>
-                <string>#F8F8F2</string>
+                <string>#d8dee9</string>
+                <key>caret</key>
+                <string>#d8dee9</string>
                 <key>invisibles</key>
-                <string>#3B3A32</string>
-
+                <string>#4c566a</string>
                 <key>lineHighlight</key>
-                <string>#434C5E</string>
-                <key>selection</key>
-                <string>#434C5E</string>
-                <key>findHighlight</key>
-                <string>#434C5E</string>
-                <key>findHighlightForeground</key>
-                <string>#ffffff</string>
-                <key>selectionBorder</key>
-                <string>#434C5E</string>
-
-                <key>guide</key>
-                <string>#424242</string>
-                <key>activeGuide</key>
-                <string>#424242</string>
-
+                <string>#434c5e52</string>
+                <!-- +- Accents -+ -->
+                <key>misspelling</key>
+                <string>#bf616a</string>
+                <key>minimapBorder</key>
+                <string>#434c5e52</string>
+                <key>accent</key>
+                <string>#88C0D0</string>
+                <!-- +- Gutter -+ -->
+                <key>gutter</key>
+                <string>#2e3440</string>
                 <key>gutterForeground</key>
-                <string>#D8DEE9</string>
-
-                <key>shadow</key>
-                <string>#2E3336</string>
-
-                <key>bracketsForeground</key>
-                <string>#F8F8F2A5</string>
+                <string>#d8dee966</string>
+                <!-- +- Selection -+ -->
+                <key>selection</key>
+                <string>#434c5ecc</string>
+                <key>selectionBorder</key>
+                <string>#434c5ecc</string>
+                <key>inactiveSelection</key>
+                <string>#434c5e99</string>
+                <!-- +- Find -+ -->
+                <key>highlight</key>
+                <string>#88c0d0</string>
+                <key>findHighlight</key>
+                <string>#88c0d0</string>
+                <key>findHighlightForeground</key>
+                <string>#2e3440</string>
+                <!-- +- Guides -+ -->
+                <key>guide</key>
+                <string>#434c5eb3</string>
+                <key>activeGuide</key>
+                <string>#88c0d0cc</string>
+                <key>stackGuide</key>
+                <string>#88c0d066</string>
+                <!-- +- Brackets -+ -->
                 <key>bracketsOptions</key>
                 <string>underline</string>
-
-                <key>bracketContentsForeground</key>
-                <string>#F8F8F2A5</string>
-                <key>bracketContentsOptions</key>
+                <key>bracketsForeground</key>
+                <string>#88c0d0</string>
+                <key>bracketsContentsOptions</key>
                 <string>underline</string>
-
+                <key>bracketsContentsForeground</key>
+                <string>#88c0d0</string>
+                <!-- +- Tags -+ -->
                 <key>tagsOptions</key>
-                <string>stippled_underline</string>
+                <string>underline</string>
+                <key>tagsForeground</key>
+                <string>#88c0d0</string>
+                <!-- +- Shadows -+ -->
+                <key>shadow</key>
+                <string>#2e3440</string>
+                <key>shadowWidth</key>
+                <string>8</string>
             </dict>
         </dict>
 
@@ -76,7 +98,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#677777</string>
+                <string>#8791a8</string>
             </dict>
         </dict>
         <dict>
@@ -98,7 +120,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#D0D0D0</string>
+                <string>#B48EAD</string>
             </dict>
         </dict>
         <dict>
@@ -120,7 +142,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#A7B3C2</string>
+                <string>#81A1C1</string>
             </dict>
         </dict>
         <dict>
@@ -131,7 +153,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#A7DBD8</string>
+                <string>#81A1C1</string>
             </dict>
         </dict>
         <dict>
@@ -263,14 +285,14 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#8FBCBB</string>
+                <string>#88C0D0</string>
             </dict>
         </dict>
         <dict>
             <key>name</key>
             <string>Function Call</string>
             <key>scope</key>
-            <string>meta.function-call, meta.function-call.method, variable.function</string>
+            <string>meta.function-call.method, variable.function, variable.parameter</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -285,7 +307,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#F8F8F2</string>
+                <string>#D8DEE9</string>
             </dict>
         </dict>
         <dict>
@@ -318,7 +340,29 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#A7B3C2</string>
+                <string>#88C0D0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Function Call Arguments</string>
+            <key>scope</key>
+            <string>meta.function-call.arguments</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#88C0D0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Function Call Punctuation</string>
+            <key>scope</key>
+            <string>punctuation.separator.arguments</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D8DEE9</string>
             </dict>
         </dict>
 
